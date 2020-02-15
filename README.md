@@ -1,5 +1,32 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project reproduces a bug found on 3.3.0 of `react-scripts`
+
+clone the repository and run:
+```
+npm i
+npm run start
+```
+
+Modifications from normal CRA:
+Deleted `serviceWorker.js`
+Used `npm` instead of yarn
+
+Node version v12.13.1
+npm version 6.12.1
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
